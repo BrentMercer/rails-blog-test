@@ -1,0 +1,8 @@
+<ul class="post-list">
+  <% @posts.each do |post| %>
+    <li><%= link_to post.title, post %> - <%= truncate(post.body) %></li>
+  <% end %>
+</ul>
+<div class="options">
+  <%= link_to "New Post", new_post_path  %>
+</div>

@@ -1,0 +1,7 @@
+<%= form_for @post do |f| -%>
+  <%= f.label :title, "Post title:" %>
+  <%= f.text_field :title %>
+  <%= f.label :body, "Body:" %>
+  <%= f.text_area :body %>
+  <%= f.submit "Save", :disable_with => 'Saving...' %>
+<% end -%>

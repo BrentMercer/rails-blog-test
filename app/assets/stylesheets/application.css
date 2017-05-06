@@ -13,3 +13,100 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  font-family: Georgia, serif;
+  color: #444;
+}
+
+p, label, div {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+header {
+  text-align: center;
+  color: #444;
+  font-size: 3em;
+}
+
+header a {
+  text-decoration: overline;
+}
+
+header a:hover {
+  color: #000;
+}
+
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+  background-image: ;
+}
+
+h2 {
+  text-align: center;
+  text-transform: lowercase;
+  text-decoration: overline;
+  color: #222;
+  font-size: 2em;
+  line-height: 1.1em;
+}
+
+.options {
+  margin: 15px;
+}
+
+.options a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #666;
+}
+
+.options a:hover {
+  text-decoration: overline;
+  color: #000;
+}
+
+.post-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.post-list li {
+  padding-top: 1em;
+}
+
+#new_post, .edit_post {
+  width: 400px;
+  border-left: 5px solid #888;
+  padding-left: 25px;
+  text-align: center;
+}
+
+#new_post label, .edit_post label {
+  display: block;
+  text-transform: lowercase;
+  margin-top: 30px;
+  font-size: 1.4em;
+}
+
+#post_title, #post_body {
+  width: 80%;
+}
+
+#post_title {
+  font-size: 1.2em;
+}
+
+#post_body {
+  height: 200px;
+  font-size: 1.1em;
+}
+
+#new_post input[type="submit"], .edit_post input[type="submit"] {
+  width: 80%;
+  margin: 20px auto;
+  font-size: 1.5em;
+}
